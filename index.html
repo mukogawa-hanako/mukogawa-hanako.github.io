@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>コードサンプル</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>コードサンプル</h1>
+    <p>ボタンを推してみよ</p>
+    <button>推せよ</button>
+    <figure>
+      <img width="400" src="img/oshi.png" />
+      <figcaption>オレの推し</figcaption>
+    </figure>
+
+    <script>
+      document.querySelector('button').onclick = () => {
+        document.querySelector('figure').classList.add('appear');
+      };
+    </script>
+  </body>
+</html>
